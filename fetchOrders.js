@@ -1,7 +1,7 @@
 function everyMinuteFetchOrder(callback) {
   setInterval(function() {
     $.ajax({
-			url: "http://money2020-app.herokuapp.com/orders?restaurantId=-Kx0rrVSISYN1ZmefG8_",
+			url: "https://money2020-app.herokuapp.com/orders?restaurantId=-Kx0rrVSISYN1ZmefG8_",
 			type: "get",
 			contentType: "application/json",
 			dataType: "json",
